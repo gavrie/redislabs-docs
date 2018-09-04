@@ -74,6 +74,10 @@
         {{- end}}
 
       </div>
+      
+    <div class="chevrons">
+      {{ partial "next-prev-page.html" . }}
+    </div>
 
     {{if not .IsHome}}<h1>{{.Title}}</h1>{{end}}
 
@@ -84,4 +88,3 @@
         </select>
       </center>
     </div>
-
